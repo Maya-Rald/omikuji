@@ -1,5 +1,6 @@
 img {
-    height: 100px;
+    padding: 50px;
+    height: 300px;
 }
 
 #name {
@@ -8,4 +9,39 @@ img {
 
 #result {
     color: green;
+}
+
+body {
+    font-size: x-large;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    text-align: center;
+    border: 2px;
+    background-color: rgb(255, 251, 240);
+}
+
+h1 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(165, 8, 8);
+    margin-bottom: 60px;
+    margin-top: 50px;
+    border: solid 5px rgb(165, 8, 8);
+    border-radius: 20px;
+    background-color: rgba(255, 230, 230, 0.8);
+}
+
+.sub_body {
+    width: 750px;
+    margin: 0 auto 100px auto ;
+    /* margin-right: auto; */
+    padding: 40px 0 40px 0;
+    background-color: rgba(255, 230, 230, 0.8) ;
+    border: solid 5px rgb(165, 8, 8);
+    border-radius: 20px;
+}
+
+.message {
+    text-align: center;
 }
